@@ -1,0 +1,18 @@
+{
+    "name": "every/akeneo-api",
+    "description": "Akeneo Api wrapper for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Alejandro Cast",
+            "email": "lexcast13@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Every\\Akeneo\\Api\\": "src/"
+        }
+    },
+    "require": {}
+}
