@@ -2,8 +2,6 @@
 
 namespace Every\Akeneo\Api\Endpoint;
 
-use Every\Akeneo\Api\Client;
-
 class AttributeOption extends AbstractEndpoint
 {
     protected $supportsMultiupdate = false;

@@ -2,8 +2,6 @@
 
 namespace Every\Akeneo\Api\Endpoint;
 
-use Every\Akeneo\Api\Client;
-
 class MediaFile extends AbstractEndpoint
 {
     protected $supportsUpdate = false;
