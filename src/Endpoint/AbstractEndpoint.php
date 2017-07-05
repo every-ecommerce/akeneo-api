@@ -31,7 +31,7 @@ abstract class AbstractEndpoint
         }
     }
 
-    public function list($page = 1, $limit = self::LIMIT, $extra = [])
+    public function listItems($page = 1, $limit = self::LIMIT, $extra = [])
     {
         $this->checkSupport('List');
 
